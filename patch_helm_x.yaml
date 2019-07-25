@@ -1,0 +1,9 @@
+patch:
+- op: replace
+  path: /spec/rules/0/host
+  value: www.test.com
+target:
+  kind: Ingress
+  name: test
+  group: extensions
+  version: v1beta1

@@ -1,0 +1,1 @@
+helm x template . --json-patch patch_helm_x.yaml --debug
